@@ -24,6 +24,15 @@ class TestContact(unittest.TestCase):
             '''
             Userlogin.userlogin_list = []
 
+    def test_save_multiple_userlogin(self):
+            '''
+            test_save_multiple_login to check if multiple users can be saved
+            '''
+            self.new_userlogin.save_userlogin()
+            test_userlogin = Userlogin("Jane Driver", "yudghjbnsfs678")  # new user
+            test_userlogin.save_userlogin()
+            self.assertEqual(len(Userlogin.userlogin_list), 2)
+
     def test_save_userlogin(self):
         '''
         test_save_userlogin test case to test if the userlogin object is saved into
