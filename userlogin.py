@@ -8,7 +8,12 @@ class Userlogin:
         self.name = name
         self.password = password
 
-    username_credentials = []
+    userlogin_list = []
+
+    def save_userlogin(self):
+
+        Userlogin.userlogin_list.append(self)
+        
 
     
         
