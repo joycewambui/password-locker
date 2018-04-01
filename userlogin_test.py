@@ -8,4 +8,15 @@ class TestContact(unittest.TestCase):
         '''
         Set up method to run before each test cases.
         '''
-    self.new_userlogin = Userlogin("Dodie","si7k998yu") #create contact object
+        self.new_userlogin = Userlogin("Dodie","si7k998yu") #create contact object
+
+    
+    def test_init(self):
+        '''
+        test_init test case to test if the object is initialized properly
+        '''
+        self.assertEqual(self.new_userlogin.name, "Dodie")
+        self.assertEqual(self.new_userlogin.password, "si7k998yu")
+
+if __name__ == '__main__':
+  unittest.main()
