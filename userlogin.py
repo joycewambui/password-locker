@@ -13,6 +13,17 @@ class Userlogin:
     def save_userlogin(self):
 
         Userlogin.userlogin_list.append(self)
+
+def main():
+    print("Welcome to The Droid Den.Please sign in if you are a human")
+
+        name = input()
+
+    print(f"Hello {name} the human,input your password")
+    print('\n')
+
+        password =input()
+
         
 
     
