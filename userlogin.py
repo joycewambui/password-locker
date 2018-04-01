@@ -1,4 +1,5 @@
-class Username:
+class Userlogin:
+    
     '''
     Class that generates new instances of username information 
     '''
