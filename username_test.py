@@ -1,6 +1,6 @@
 import unittest  # Importing the unittest module
 
-from usernames import Username
+from username import Username
 
 
 class TestContact(unittest.TestCase):
@@ -8,4 +8,4 @@ class TestContact(unittest.TestCase):
         '''
         Set up method to run before each test cases.
         '''
-        
+
