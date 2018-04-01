@@ -18,6 +18,12 @@ class TestContact(unittest.TestCase):
         self.assertEqual(self.new_userlogin.name, "Dodie")
         self.assertEqual(self.new_userlogin.password, "si7k998yu")
 
+    def tearDown(self):
+            '''
+            tearDown method that does clean up after each test case has run.
+            '''
+            Userlogin.userlogin_list = []
+
     def test_save_userlogin(self):
         '''
         test_save_userlogin test case to test if the userlogin object is saved into
