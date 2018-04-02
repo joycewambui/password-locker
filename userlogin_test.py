@@ -29,7 +29,7 @@ class TestContact(unittest.TestCase):
             test_save_multiple_login to check if multiple users can be saved
             '''
             self.new_userlogin.save_userlogin()
-            test_userlogin = Userlogin("Jane Driver", "yudghjbnsfs678")  # new user
+            test_userlogin = Userlogin("Jane Driver", "tyhfui78!Y")  # new user
             test_userlogin.save_userlogin()
             self.assertEqual(len(Userlogin.userlogin_list), 2)
 

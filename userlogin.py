@@ -34,7 +34,7 @@ def main():
     print("Your credentials have been saved!")
 
     
-answer = input("Here is a random password.Who has time to remember things?" )
+answer = input("Here is a random password.Who has time to remember things?Press Enter" )
 password = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
 length = 10
 p = "".join(random.sample(password, length))
