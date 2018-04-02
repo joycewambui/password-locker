@@ -1,6 +1,6 @@
-import time
+import passwords
+import random
 
-from passwords import Passwords
 
 class Userlogin:
     
@@ -18,6 +18,8 @@ class Userlogin:
 
         Userlogin.userlogin_list.append(self)
 
+
+
 def main():
     print("Welcome to The Droid Den.Please sign up if you are a human")
 
@@ -31,8 +33,16 @@ def main():
 
     print("Your credentials have been saved!")
 
-    answer = input()
+    
+answer = input("Here is a random password.Who has time to remember things?" )
+password = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+length = 10
+p = "".join(random.sample(password, length))
 
+print(p)
+
+
+ 
     
 
 
