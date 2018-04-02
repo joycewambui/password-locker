@@ -41,5 +41,7 @@ class TestContact(unittest.TestCase):
         self.new_userlogin.save_userlogin()  # saving the new userlogin details
         self.assertEqual(len(Userlogin.userlogin_list), 1)
 
+    
+
 if __name__ == '__main__':
   unittest.main()
