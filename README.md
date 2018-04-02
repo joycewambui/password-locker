@@ -11,10 +11,17 @@ This is a simple app for generating random user passwords.It is run on the termi
 
 <li>Open your terminal or shell to the directory where the file `password locker` is located.</li>
 <li>To run the program type `python userlogin.py`</li>
-<li>A random password</li>
+<li>A random password will be generated</li>
+<li>The user can then use the password provided to create an account</li>
 
 
 </ol>
+
+# Contributors
+Joyce Wambui
+
+# License
+MIT
 
 
 
